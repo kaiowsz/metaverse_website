@@ -36,7 +36,7 @@ export const navVariants = {
     },
   });
   
-  export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
+  export const staggerContainer = (staggerChildren?: any, delayChildren?: any) => ({
     hidden: {},
     show: {
       transition: {
@@ -46,7 +46,7 @@ export const navVariants = {
     },
   });
   
-  export const textVariant = (delay: any) => ({
+  export const textVariant = (delay: number | undefined) => ({
     hidden: {
       y: 50,
       opacity: 0,
