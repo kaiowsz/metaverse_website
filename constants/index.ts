@@ -45,7 +45,7 @@ export const exploreWorlds: exploreWorlds = [
       imgUrl: '/vrpano.svg',
       title: 'A new world',
       subtitle:
-          'we have the latest update with new world for you to try never mind',
+          'We have the latest update with new world for you to try never mind',
     },
     {
       imgUrl: '/headset.svg',

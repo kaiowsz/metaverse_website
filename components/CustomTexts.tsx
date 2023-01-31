@@ -7,7 +7,7 @@ import { textContainer, textVariant2 } from "../utils/motion"
 
 type PropsTyping = {
   title: string;
-  textStyles: string;
+  textStyles?: string;
 }
 
 export const TypingText = ({title, textStyles}: PropsTyping) => (

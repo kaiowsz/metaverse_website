@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion"
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from "../utils/motion"
+import { Link } from 'react-scroll';
 
 function Hero() {
   return (
@@ -35,11 +36,11 @@ function Hero() {
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]"/>
             <img src="/cover.png" alt="cover" className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative" />
 
-            <a href="#explore">
+            <Link smooth duration={700} to="explore" style={{ cursor: "pointer" }}>
               <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
                 <img src="/stamp.png" alt="stamp" className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain" />
               </div>
-            </a>
+            </Link>
         </motion.div>
       </motion.div>
     </section>
