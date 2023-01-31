@@ -36,7 +36,7 @@ export const navVariants = {
     },
   });
   
-  export const staggerContainer = (staggerChildren?: any, delayChildren?: any) => ({
+  export const staggerContainer: any = (staggerChildren?: any, delayChildren?: any) => ({
     hidden: {},
     show: {
       transition: {
@@ -87,7 +87,7 @@ export const navVariants = {
     },
   };
   
-  export const fadeIn = (direction: any, type: any, delay: any, duration: any) => ({
+  export const fadeIn: any = (direction: any, type: any, delay: any, duration: any) => ({
     hidden: {
       x: direction === 'left' ? 100 : direction === 'right' ? -100 : 0,
       y: direction === 'up' ? 100 : direction === 'down' ? -100 : 0,
