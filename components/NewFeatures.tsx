@@ -3,14 +3,8 @@
 import React from 'react'
 import styles from '../styles';
 
-type PropsNewFeatures = {
-  imgUrl: string;
-  title: string;
-  subtitle: string;
-  number: Number;
-}
 
-function NewFeatures({number, imgUrl, title, subtitle}: PropsNewFeatures) {
+function NewFeatures({imgUrl, title, subtitle}: any) {
   return (
     <div className="flex-1 flex flex-col sm:max-w-[250px] min-w-[210px]">
       <div className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323f5d]`}>

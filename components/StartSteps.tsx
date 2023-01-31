@@ -3,11 +3,6 @@
 import React from 'react'
 import styles from '../styles';
 
-type PropsStartSteps = {
-  text: Array<string>;
-  number: Number;
-}
-
 function StartSteps({number, text}: any) {
   return (
     <div className={`${styles.flexCenter} flex-row`}>
