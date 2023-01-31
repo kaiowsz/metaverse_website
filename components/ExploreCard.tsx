@@ -1,6 +1,6 @@
 'use client';
 
-import { fadeIn, navVariants } from '../utils/motion';
+import { fadeIn } from '../utils/motion';
 import styles from '../styles';
 import React, { Dispatch, SetStateAction } from 'react'
 import { motion } from 'framer-motion';
