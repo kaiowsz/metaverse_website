@@ -105,3 +105,19 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer;
+
+}
+
+::-webkit-scrollbar-track {
+  background: #1A232E;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(88, 11, 63);
+  border-radius: 20px;
+  transition: all 2s;
+}
